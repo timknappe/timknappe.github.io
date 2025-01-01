@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1533c63.css",
+    "main.js": "/static/js/main.e6dd15a1.js",
+    "static/media/Benne-Regular.ttf": "/static/media/Benne-Regular.ab3e41224c3638dd29f4.ttf",
+    "static/media/linkedin.png": "/static/media/linkedin.dca789ee1e14e014e635.png",
+    "index.html": "/index.html",
+    "main.e1533c63.css.map": "/static/css/main.e1533c63.css.map",
+    "main.e6dd15a1.js.map": "/static/js/main.e6dd15a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1533c63.css",
+    "static/js/main.e6dd15a1.js"
+  ]
+}
