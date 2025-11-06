@@ -3,9 +3,9 @@
   "name": "Tim's log",
   "icons": [
     {
-      "src": "T.jpg",
+      "src": "logo-round.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ],
   "start_url": ".",
