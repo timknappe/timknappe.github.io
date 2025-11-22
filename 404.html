@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      sessionStorage.setItem(
+        "redirect_path",
+        location.pathname + location.search + location.hash
+      );
+      window.location.replace("/");
+    </script>
+  </head>
+  <body></body>
+</html>
