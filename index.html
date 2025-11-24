@@ -1,38 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/logo-round.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="A little page to share learnings, blogs and other small bits of my work."
-    />
-    <link rel="apple-touch-icon" href="/logo-round.png" />
-    <link rel="manifest" href="/manifest.json" />
-
-    <title>Tim's page</title>
-    <meta
-      name="google-site-verification"
-      content="G3KI811IF4gQ7Xd-JFwFxuS3zlvWrskRa9OyL4WFhwk"
-    />
-    <script type="module" crossorigin src="/assets/index-3iOeFsbG.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-bqg3sUKe.css">
-  </head>
-
-  <script>
-    (function () {
-      const redirectPath = sessionStorage.getItem("redirect_path");
-      if (redirectPath) {
-        sessionStorage.removeItem("redirect_path");
-        history.replaceState(null, "", redirectPath);
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/png" href="/logo-round.png"><meta name="generator" content="Astro v5.16.0"><title>Tim's Page</title> <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://timknappe.github.io/#me",
+  "name": "Tim Knappe",
+  "additionalName": "David",
+  "givenName": "Tim",
+  "familyName": "Knappe",
+  "jobTitle": "Software Engineer",
+  "url": "https://timknappe.github.io/",
+  "email": "cs.timknappe@gmail.com",
+  "description": "Independent AI researcher and undergraduate Computer Science student. Works on NLP, machine learning, and web agent research.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Telekom",
+    "url": "https://www.telekom.com"
+  },
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q136709373",
+    "https://www.linkedin.com/in/tim-knappe",
+    "https://github.com/timknappe",
+    "https://scholar.google.com/citations?user=P3e_mu4AAAAJ",
+    "https://orcid.org/0009-0006-1321-3824"
+  ],
+  "mentions": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://cdn.openai.com/papers/22265bac-3191-44e5-b057-7aaacd8e90cd/paperbench.pdf"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://algoverseairesearch.org/news/openAI"
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Heinz-Nixdorf-Berufskolleg",
+      "url": "https://hnbk.de/"
+    }
+  ],
+  "affiliation": [
+    {
+      "@type": "Role",
+      "roleName": "External Research Collaborator",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "University of Michigan SLED Lab",
+        "url": "https://sledlab.org"
       }
-    })();
-  </script>
-
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
-</html>
+    },
+    {
+      "@type": "Role",
+      "roleName": "Research Collaborator",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Carnegie Mellon University Mechanical & AI Lab"
+      }
+    },
+    {
+      "@type": "Role",
+      "roleName": "Preparedness Research Collaborator",
+      "memberOf": {
+        "@type": "Organization",
+        "name": "OpenAI",
+        "url": "https://openai.com"
+      }
+    }
+  ],
+  "knowsLanguage": ["English", "German"],
+  "knowsAbout": [
+    "Natural Language Processing",
+    "Machine Learning",
+    "Reinforcement Learning",
+    "Web Agents",
+    "Artificial Intelligence",
+    "Computer Science",
+    "Software Engineering"
+  ]
+}
+  </script> <style>.Navbar{display:flex;justify-content:space-evenly;align-items:center;height:6vh;max-height:61px;width:100vw}#logo{height:100%;width:auto}.links{display:flex;justify-content:space-around;align-items:center;width:33%;gap:1rem}#logoWrapper{height:100%;width:33%;display:flex;justify-content:flex-start}.linkElem{text-decoration:none;color:#000;font-size:20px}.TextLogo{color:#000;text-decoration:none;height:100%;overflow-y:hidden}.placeholder-span{width:33%}.TextLogo img{height:100%;width:auto}.fontSelector{cursor:pointer;-webkit-user-drag:none;user-select:none}@media(max-width:768px){.Navbar{padding:0 .5rem;min-height:60px}.links{gap:.5rem}.linkElem{font-size:18px}}@media(max-width:1000px){.Navbar{padding:.5rem;gap:.5rem}.placeholder-span{width:10px}#logoWrapper{justify-content:center;width:100%}.links{justify-content:space-around;width:80%;gap:1rem}.linkElem{font-size:16px}}#search{outline:none;border-bottom:1px solid black;font-size:17px}@media(max-width:768px){#search{font-size:16px;width:100%;max-width:300px}}@media(max-width:480px){#search{font-size:15px;max-width:250px}}@font-face{font-family:Benne;src:url(/_astro/Benne-Regular.BWo7ljG_.ttf) format("truetype");font-weight:400;font-style:normal;font-display:swap}:root{--font-var: "Benne", serif;--line-height-tight: 1.35}.changedFont{--font-var: "Segoe UI", sans-serif}*,*:before,*:after{border:0;margin:0;padding:0;box-sizing:border-box}body,button,input,select,textarea{font-family:var(--font-var, "Times New Roman", Times, serif);font-weight:500;font-style:normal;line-height:var(--line-height-tight);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}input::placeholder,textarea::placeholder{font-family:var(--font-var, "Times New Roman", Times, serif);line-height:var(--line-height-tight);font-weight:500;font-style:normal;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}p,h1,h2,h3,h4,h5,h6,a,li{line-height:var(--line-height-tight)}a{color:#000}.tooltip{position:relative;display:inline-block;border-bottom:1px dotted black}.tooltip .tooltiptext{visibility:hidden;width:120px;background-color:#000;color:#fff;text-align:center;border-radius:6px;padding:5px 0;position:absolute;z-index:1;top:100%;left:50%;margin-left:-60px}.tooltip:hover .tooltiptext{visibility:visible}@media(max-width:768px){.tooltip .tooltiptext{width:100px;margin-left:-50px;font-size:.8rem}}.content{min-height:90vh;max-width:100vw;display:flex;flex-direction:column;align-items:center}.footer{overflow:hidden;height:2vh;display:flex;justify-content:center;align-items:center;user-select:none;-webkit-user-drag:none}@media(max-width:768px){.content{padding:0 .5rem}.footer{min-height:40px}}@media(max-width:480px){.content{padding:0 .25rem}.footer{min-height:50px}}
+.Home{display:flex;flex-direction:column;justify-content:center;align-items:center;width:100%}#infoWrapper{display:flex;width:50vw;height:fit-content;padding-top:2rem}#me{display:flex;flex-direction:column;justify-content:space-between;text-wrap:wrap;width:"50%"}#me p{font-size:1.25em}.linkBtn{width:50px;height:50px;cursor:pointer;overflow:hidden;user-select:none;-webkit-user-drag:none}#FAQ{width:50vw;height:40vh;display:flex;flex-direction:column;align-items:center;justify-content:center}.faqDetails{width:50vw;height:10vh;font-size:20px;cursor:text}.faqSummary{cursor:pointer}@media(max-width:768px){#infoWrapper,#FAQ{width:80vw}.faqDetails{width:80vw;font-size:18px}}@media(max-width:480px){#infoWrapper{width:95vw;padding-top:1rem}#me p{font-size:16px}#FAQ{width:95vw;height:auto;min-height:30vh}.faqDetails{width:95vw;height:auto;min-height:8vh;font-size:16px}}
+</style></head> <body> <div class="App"> <div class="Navbar" role="navigation"> <a href="/" class="TextLogo"> <img src="/_astro/logo.gRqdfO3K_18CpNj.webp" alt="logo" loading="lazy" decoding="async" fetchpriority="auto" width="460" height="460"> </a> <span class="placeholder-span"></span> <div class="links"> <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();</script><script>(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var d=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>m(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[l,e]=t;return l in i?i[l](e):void 0},a=t=>t.map(o),m=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([l,e])=>[l,o(e)]));class y extends HTMLElement{constructor(){super(...arguments);d(this,"Component");d(this,"hydrator");d(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},h=this.querySelectorAll("template[data-astro-template]");for(let r of h){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let p;try{p=this.hasAttribute("props")?m(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let u;await this.hydrator(this)(this.Component,p,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});d(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[h,{default:p}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),u=this.getAttribute("component-export")||"default";if(!u.includes("."))this.Component=h[u];else{this.Component=h;for(let f of u.split("."))this.Component=this.Component[f]}return this.hydrator=p,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}d(y,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",y)}})();</script><astro-island uid="2wJD37" prefix="r1" component-url="/_astro/searchBar.DS90Ydqp.js" component-export="Search" renderer-url="/_astro/client.BLUn-lwI.js" props="{}" ssr client="load" opts="{&quot;name&quot;:&quot;Search&quot;,&quot;value&quot;:true}" await-children><div class="form__group field"><input type="text" placeholder="Search" id="search" value=""/></div><!--astro:end--></astro-island> <a class="linkElem" href="/archive">
+Archive
+</a> </div> </div> <div class="content">   <div class="Home"> <section style="width:100%;height:fit-content;display:flex;flex-direction:row;align-items:center;justify-content:center" role="main"> <div id="infoWrapper"> <div id="me"> <p>
+Hi there, I'm <b>Tim</b>. I'm an independent researcher and
+              undergraduate student of Computer Science.
+</p> <p>
+I am currently working at  <a href="https://www.telekom.com/en/company/worldwide" style="color:black;text-decoration:none" target="_blank" rel="noreferrer">
+Telekom
+</a> 
+as a Software Engineer.
+</p> <p>
+In the past I worked with  <a href="https://algoverseairesearch.org/" style="color:black;text-decoration:none" target="_blank" rel="noreferrer">
+Algoverse,
+</a>   <a href="https://sled.eecs.umich.edu/" style="color:black;text-decoration:none" target="_blank" rel="noreferrer">
+UMich's SLED Lab
+</a> 
+and  <a href="https://sites.google.com/view/barati" style="color:black;text-decoration:none" target="_blank" rel="noreferrer">
+CMU's Mechanical and AI Lab
+</a> 
+for various research projects and contributed to  <a href="https://openai.com/index/updating-our-preparedness-framework/" style="color:black;text-decoration:none" target="_blank" rel="noreferrer">
+OpenAI preparedness research.
+</a> </p> <p>
+Currently im working on Web Agents and on multilingualism in Large
+              Language Models.
+</p> <p>
+This page will document some learnings and projects of mine. I
+              have a wide range of interests, like philosophy, literature and
+              medicine, although my main focus is on Computer Science and AI.
+</p> <p>
+There are no posts as of now, but I will be adding more soon and
+              start to migrate some of my old notes.
+</p> <p>
+If you want to reach out, contact me  <a href="mailto:cs.timknappe@gmail.com">here</a>.
+</p> <div style="width:100%;display:flex;align-items:center;justify-content:center;padding-top:1rem"> <a href="https://www.linkedin.com/in/tim-knappe" class="linkBtn" target="_blank" rel="noreferrer"> <img src="/_astro/linkedin.h-HlxrLl.webp" alt="linkedin" class="linkBtn"> </a> <span style="width:20px"></span> <a href="https://github.com/timknappe" class="linkBtn" target="_blank" rel="noreferrer"> <img src="/_astro/githubDark.BZyx_c4X.webp" alt="github" class="linkBtn"> </a> </div> </div> </div> </section> <section id="FAQ"> <div style="display:flex;align-items:center"> <h2>FAQs</h2> <span style="width:20px"></span> <hr style="width:40vw;height:1px;border-top:1px solid black"> </div> <div> <details class="faqDetails"> <summary class="faqSummary">Why the Otter Logo?</summary> <p>I like otters. They are cool.</p> </details> <details class="faqDetails"> <summary class="faqSummary">
+How often do you upload stuff?
+</summary> <p>
+Im quite busy these days so im pretty inconsistent, when something
+              comes to mind I will upload it.
+</p> </details>  </div> </section> </div>  </div> <div role="contentinfo" class="footer">
+Tim Knappe © 2024 - 2025 </div> </div></body></html>
